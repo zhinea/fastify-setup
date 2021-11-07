@@ -1,0 +1,19 @@
+{
+  "name": "fastify-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "share": "node ./sharer.js"
+  },
+  "dependencies": {
+    "fastify": "^3.23.0",
+    "mysql2": "^2.3.3-rc.0"
+  },
+  "devDependencies": {
+    "ngrok": "^4.2.2",
+    "nodemon": "^2.0.14"
+  }
+}
